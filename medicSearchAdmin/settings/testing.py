@@ -1,6 +1,6 @@
 from .settings import *
 
-SECRET_KEY = ''
+SECRET_KEY = '$%$#%gdjkkaHHD5Ggd55HSH56lfpçq00Lmdfand4q9o0ui8DPÇOJsdS5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
