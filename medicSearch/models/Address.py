@@ -7,7 +7,7 @@ class Address(models.Model):
     address = models.CharField(max_length=255)
     latitude = models.DecimalField(max_digits=9, decimal_places=7)
     longitude = models.DecimalField(max_digits=9, decimal_places=7)
-    opening_time = models.TextField()
+    opening_time = models.TimeField()
     closing_time = models.TimeField()
     days_week = models.ManyToManyField(DayWeek, blank=True, related_name='days_week')
     phone = models.CharField(max_length=50, null=True, blank=True)
