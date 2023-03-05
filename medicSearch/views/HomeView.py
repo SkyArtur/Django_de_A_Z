@@ -1,6 +1,5 @@
 from medicSearch.views import *
 
 
-# Create your views here.
-def index(request):
+def home_view(request):
     return render(request, 'content/index.html')

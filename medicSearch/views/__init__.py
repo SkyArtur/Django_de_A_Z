@@ -1,3 +1,4 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-from .index import index
+from .HomeView import home_view

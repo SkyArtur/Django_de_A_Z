@@ -3,8 +3,9 @@ from django.urls import path, include
 from django.conf.urls.static import static, settings
 
 urlpatterns = [
+    path('', include('medicSearch.urls.HomeUrls')),
     path('admin/', admin.site.urls),
-    path('', include(('medicSearch.urls', 'medicSearch'), namespace='medicSearch'))
+    path('profile/', include('medicSearch.urls.ProfileUrls'))
 ]
 
 if settings.DEBUG:
